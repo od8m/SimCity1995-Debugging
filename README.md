@@ -84,7 +84,7 @@ Upon loading a game, the colors are completely off. Let's dive deeper to underst
 
 ### Investigating Graphics Settings in IDA
 
-By exploring the strings in IDA, we find a function that loads `GRAPHICS` and `pal_mstr.bmp`.
+In IDA, by examining the strings and xrefing `GRAPHICS`, then pressing F5 to view the pseudocode, we can see that the function `sub_402c11` loads both `GRAPHICS` and `pal_mstr.bmp`.
 
 ![IDA Pseudocode for Graphics](https://github.com/user-attachments/assets/1188eca2-cc6e-4abc-8438-dd280482ac62)
 

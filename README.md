@@ -73,7 +73,8 @@ To resolve this, we need to add the `DATA_usa.DAT` file to the newly created fol
 
 After resolving the missing file, we finally reach the game menu with our new mayor name.
 
-![Game Menu](https://github.com/user-attachments/assets/d6030e76-6c86-45b4-a671-dbda44d17112)
+![Game Menu](https://github.com/user-attachments/assets/4cd53a96-aef8-44e1-be88-b03e193b1b3a)
+![Load City](https://github.com/user-attachments/assets/d6030e76-6c86-45b4-a671-dbda44d17112)
 
 ## Fixing the Graphics Issues
 

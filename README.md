@@ -79,22 +79,23 @@ After resolving the missing file, we finally reach the game menu with our new ma
 
 Upon loading a game, the colors are completely off. Let's dive deeper to understand why.
 
-![Color Issues](https://femboylover.com/fe4krvtf.png)
+![Color Issues](https://github.com/user-attachments/assets/7d8c4b7f-88de-4db7-8483-d4b29f6702c9)
 
 ### Investigating Graphics Settings in IDA
 
 By exploring the strings in IDA, we find a function that loads `GRAPHICS` and `pal_mstr.bmp`.
 
-![IDA Pseudocode for Graphics](https://femboylover.com/btrh6cfa.png)
+![IDA Pseudocode for Graphics](https://github.com/user-attachments/assets/1188eca2-cc6e-4abc-8438-dd280482ac62)
 
 ### Setting the Graphics Path in the Registry
 
 We’ll copy the correct path to the `bitmaps` folder and create a new key in `regedit` for the graphics.
 
-![Registry Key for Graphics](https://femboylover.com/9tltnald.png)
+![Registry Key for Graphics](https://github.com/user-attachments/assets/7dbba36b-ef17-485a-90a9-4d55794e30f3)
 
 ## Success! Colors Restored
 
 Finally, with the correct graphics settings, we restore the game’s color.
 
-![Colors Restored](https://femboylover.com/alm2bnji.png)
+![Colors Restored](https://github.com/user-attachments/assets/8ff3d8d2-d559-47ee-87e0-df34e0c233fe)
+

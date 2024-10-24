@@ -98,9 +98,7 @@ We’ll copy the correct path to the `bitmaps` folder and create a new key in `r
 
 Finally, with the correct graphics settings, we restore the game’s color.
 
-## Now for the Keygen
-[Short Youtube Video](https://www.youtube.com/watch?v=zjqOULzycig)
-
-
 ![Colors Restored](https://github.com/user-attachments/assets/8ff3d8d2-d559-47ee-87e0-df34e0c233fe)
 
+## Now for the Keygen
+[Short Youtube Video](https://www.youtube.com/watch?v=zjqOULzycig)

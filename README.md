@@ -6,7 +6,7 @@ This guide will walk you through debugging SIMCITY.exe and bypassing the registr
 
 Upon launching `SIMCITY.exe`, we encounter the following error message indicating that the game hasn't been registered with the system.
 
-![Error Message](https://femboylover.com/0uiwn64k.png)
+![Error Message](https://github.com/user-attachments/assets/717fc6bb-0b3a-4130-94b9-f64e03481554)
 
 ### Debugging with x32dbg
 

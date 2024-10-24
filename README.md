@@ -12,17 +12,18 @@ Upon launching `SIMCITY.exe`, we encounter the following error message indicatin
 
 To investigate, we'll set a breakpoint inside `user32.dll` for `MessageBoxA` using x32dbg.
 
-![x32dbg MessageBoxA Breakpoint](https://femboylover.com/zb5jeebi.png)
+![x32dbg MessageBoxA Breakpoint](https://github.com/user-attachments/assets/802876a2-4d26-432a-b6f7-5cf65183c158)
 
 After running the executable, we hit the breakpoint.
 
-![Breakpoint Hit](https://femboylover.com/b8r3lgy2.png)
+![Breakpoint Hit](https://github.com/user-attachments/assets/76d3fc6b-39f6-47e4-91e6-8ac65a5a4773)
 
 ### Examining in IDA
 
 Next, let's copy the offset and inspect the code in IDA. We find this snippet:
 
-![IDA Disassembly](https://femboylover.com/xes5hlwf.png)
+![IDA Disassembly](https://github.com/user-attachments/assets/a01170b1-3458-43b2-aaa3-5eebf29d00e6)
+
 
 This section checks if the `0x400` bit is set in `result`. If true, it sets `this[0x1A]` to `0xFFFFFFFF`, which is likely responsible for triggering the message box.
 

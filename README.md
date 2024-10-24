@@ -1,4 +1,4 @@
-# SIMCITY.exe Debugging and Registration Bypass
+# SIMCITY.exe Debugging and Registration Bypass (still editing more needs to be done)
 
 This guide will walk you through debugging SIMCITY.exe and bypassing the registration check to get the game running.
 

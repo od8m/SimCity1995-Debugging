@@ -1,4 +1,4 @@
-# SIMCITY.exe Debugging and Registration Bypass (still editing more needs to be done)
+# SIMCITY.exe Debugging and Registration Bypass
 
 This guide will walk you through debugging SIMCITY.exe and bypassing the registration check to get the game running.
 
@@ -97,6 +97,10 @@ We’ll copy the correct path to the `bitmaps` folder and create a new key in `r
 ## Success! Colors Restored
 
 Finally, with the correct graphics settings, we restore the game’s color.
+
+## Now for the Keygen
+[Short Youtube Video](https://www.youtube.com/watch?v=zjqOULzycig)
+
 
 ![Colors Restored](https://github.com/user-attachments/assets/8ff3d8d2-d559-47ee-87e0-df34e0c233fe)
 

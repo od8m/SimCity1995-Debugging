@@ -31,7 +31,8 @@ This section checks if the `0x400` bit is set in `result`. If true, it sets `thi
 
 By tracing the call stack, we find additional clues:
 
-![Call Stack Trace](https://femboylover.com/arqqc7ix.png)
+![Call Stack Trace](https://github.com/user-attachments/assets/ebd56d1d-2e11-4b77-a2dc-02ddd6893889)
+
 
 At this point, it's clear that the executable is checking the registry for a registration key. We can now use ProcMon to track what the game is trying to access.
 
@@ -39,39 +40,40 @@ At this point, it's clear that the executable is checking the registry for a reg
 
 In ProcMon, we see that SIMCITY.exe is trying to load a mayor name, but we haven't created one yet.
 
-![ProcMon Trace](https://femboylover.com/g5ms3924.png)
+![ProcMon Trace](https://github.com/user-attachments/assets/eb5f25bd-4faa-44c7-b56e-e4b6034deaa8)
 
 ### Creating a Mayor Name
 
 We’ll quickly create a mayor name using `regedit`.
 
-![Registry Entry for Mayor Name](https://femboylover.com/pqziseyt.png)
+![Registry Entry for Mayor Name](https://github.com/user-attachments/assets/acf1301e-d024-4ae9-8467-688351a01a48)
+
 
 With this step completed, new folders appear in the registry.
 
-![New Registry Folders](https://femboylover.com/e3evt79h.png)
+![New Registry Folders](https://github.com/user-attachments/assets/674616dd-e715-4cdd-bce3-804613714f85)
 
 ## Handling the New Error: Missing `DATA_usa.DAT`
 
 After creating the mayor name, we hit a new error, this time about `DATA_usa.DAT`.
 
-![New Error](https://femboylover.com/gfs6ikcg.png)
+![New Error](https://github.com/user-attachments/assets/3dca13b1-8915-472a-9b4f-c573838e0a99)
 
 In ProcMon, we see the game trying to load this specific file.
 
-![ProcMon Trying to Load DATA_usa.DAT](https://femboylover.com/2yv9ekth.png)
+![ProcMon Trying to Load DATA_usa.DAT](https://github.com/user-attachments/assets/16f538ee-49da-40eb-9749-5e1f201f9fc4)
 
 ### Fixing the Issue
 
 To resolve this, we need to add the `DATA_usa.DAT` file to the newly created folder.
 
-![Adding DATA_usa.DAT](https://femboylover.com/phhkwixw.png)
+![Adding DATA_usa.DAT](https://github.com/user-attachments/assets/253a562a-83b7-4d8a-9758-f44882a92ade)
 
 ## Finally, the Menu Appears!
 
 After resolving the missing file, we finally reach the game menu with our new mayor name.
 
-![Game Menu](https://femboylover.com/7bogvlgw.png)
+![Game Menu](https://github.com/user-attachments/assets/d6030e76-6c86-45b4-a671-dbda44d17112)
 
 ## Fixing the Graphics Issues
 

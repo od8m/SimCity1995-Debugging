@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keygen'", "WindowsFormsApp12\keygen'.csproj", "{45ACDB2E-B44A-4AFD-8C56-3A4BE2B35450}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keygen'", "SimCityKeygen\keygen'.csproj", "{45ACDB2E-B44A-4AFD-8C56-3A4BE2B35450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

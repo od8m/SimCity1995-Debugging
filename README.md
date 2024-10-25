@@ -1,6 +1,7 @@
 # SIMCITY.exe Debugging and Registration Bypass
 
 This guide will walk you through debugging SIMCITY.exe and bypassing the registration check to get the game running.
+**Note:** The version of SimCity used in this guide is available at [https://archive.org/details/sc2000_win95](https://archive.org/details/sc2000_win95). The keygen will only work if the `win95` folder is located on your desktop.
 
 ## Initial Message Box Error
 

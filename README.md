@@ -104,21 +104,14 @@ Finally, with the correct graphics settings, we restore the game’s color.
 
 ![Colors Restored](https://github.com/user-attachments/assets/8ff3d8d2-d559-47ee-87e0-df34e0c233fe)
 
-Copyright (C) 2019 - 2024 Casper <od8m@users.noreply.github.com>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
 ## Now for the Keygen
 [Short Youtube Video](https://www.youtube.com/watch?v=zjqOULzycig)
+
+## License
+
+Licensed under [GPL 3.0 License](https://opensource.org/licenses/GPL-3.0), see [license.md](license.md).
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, shall be licensed as above, without any additional terms or conditions.
